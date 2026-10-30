@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 40 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Tymofii</title><desc id="desc">Interfaces, systems, experiments. Editorial developer portfolio banner.</desc>
+<rect width="1200" height="400" fill="#f2eddf"/>
+<path d="M800 0H1200V400H800Z" fill="#e85d3f"/>
+<g fill="none" stroke="#242424" stroke-width="2"><circle cx="1000" cy="200" r="142"/><ellipse cx="1000" cy="200" rx="76" ry="142"/><ellipse cx="1000" cy="200" rx="26" ry="142"/><ellipse cx="1000" cy="200" rx="142" ry="55"/><path d="M858 200H1142M1000 58V342"/></g>
+<circle cx="1100" cy="100" r="18" fill="#242424"/><circle cx="900" cy="300" r="12" fill="#f2eddf"/>
+<g fill="#242424" font-family="Arial,Helvetica,sans-serif"><text x="44" y="225" font-size="132" font-weight="800" letter-spacing="-7">Tymofii.</text></g>
+</svg>
