@@ -1,5 +1,5 @@
 <p align="left">
-<img src="assets/header.svg" width="100%" alt="Tymofii — dark developer banner with mint lettering and circuit traces" />
+<img src="assets/header.svg" width="100%" alt="Tymofii — oversized blue lettering on a light asymmetric banner" />
 </p>
 
 # Tymofii

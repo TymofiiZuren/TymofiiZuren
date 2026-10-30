@@ -1,29 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
 <title id="title">Tymofii</title>
-<desc id="desc">Dark developer banner with mint lettering, a subtle grid, and geometric circuit traces.</desc>
-<defs>
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M40 0H0V40" fill="none" stroke="#1c2c34" stroke-width="1"/>
-  </pattern>
-  <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0d1720"/>
-    <stop offset="1" stop-color="#10272b"/>
-  </linearGradient>
-</defs>
-<rect width="1200" height="300" fill="url(#backdrop)"/>
-<rect x="710" width="490" height="300" fill="url(#grid)"/>
-<path d="M0 0H1200" stroke="#8bf0ca" stroke-width="6"/>
-<path d="M45 62V42H65M45 238V258H65" fill="none" stroke="#8bf0ca" stroke-width="3"/>
-<text x="76" y="202" fill="#dff8ec" font-family="Arial,Helvetica,sans-serif" font-size="132" font-weight="700" letter-spacing="-6">Tymofii</text>
-<rect x="544" y="178" width="22" height="26" fill="#8bf0ca"/>
-<g fill="none" stroke-linecap="square" stroke-linejoin="miter">
-  <path d="M740 90H814L854 130H912M760 238H825L865 198H912M1055 150H1125L1170 105H1200" stroke="#355b5c" stroke-width="2"/>
-  <path d="M895 105L850 150L895 195M1035 105L1080 150L1035 195M991 87L939 213" stroke="#8bf0ca" stroke-width="8"/>
-  <path d="M788 50H1105V250H788" stroke="#355b5c" stroke-width="1"/>
-</g>
-<g fill="#8bf0ca">
-  <circle cx="740" cy="90" r="4"/>
-  <circle cx="760" cy="238" r="4"/>
-  <circle cx="1125" cy="150" r="4"/>
-</g>
+<desc id="desc">Minimal cobalt-blue typography on a pale blue background with an asymmetric graphic composition.</desc>
+<rect width="1200" height="320" fill="#edf2ff"/>
+<path d="M0 0H19V320H0Z" fill="#2449eb"/>
+<path d="M924 0H1200V320H1084Z" fill="#dce5ff"/>
+<circle cx="1100" cy="57" r="110" fill="#c6d3ff"/>
+<path d="M967 207H1147V225H967Z" fill="#2449eb"/>
+<path d="M1048 126H1066V306H1048Z" fill="#2449eb"/>
+<text x="63" y="233" font-family="Arial,Helvetica,sans-serif" font-size="198" font-weight="700" letter-spacing="-12" fill="#2449eb">Tymofii</text>
+<path d="M74 273H837" stroke="#2449eb" stroke-width="2"/>
+<circle cx="837" cy="273" r="6" fill="#2449eb"/>
 </svg>
