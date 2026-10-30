@@ -1,8 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 40 1200 320" role="img" aria-labelledby="title desc">
-<title id="title">Tymofii</title><desc id="desc">Interfaces, systems, experiments. Editorial developer portfolio banner.</desc>
-<rect width="1200" height="400" fill="#f2eddf"/>
-<path d="M800 0H1200V400H800Z" fill="#e85d3f"/>
-<g fill="none" stroke="#242424" stroke-width="2"><circle cx="1000" cy="200" r="142"/><ellipse cx="1000" cy="200" rx="76" ry="142"/><ellipse cx="1000" cy="200" rx="26" ry="142"/><ellipse cx="1000" cy="200" rx="142" ry="55"/><path d="M858 200H1142M1000 58V342"/></g>
-<circle cx="1100" cy="100" r="18" fill="#242424"/><circle cx="900" cy="300" r="12" fill="#f2eddf"/>
-<g fill="#242424" font-family="Arial,Helvetica,sans-serif"><text x="44" y="225" font-size="132" font-weight="800" letter-spacing="-7">Tymofii.</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Tymofii</title>
+<desc id="desc">Dark developer banner with mint lettering, a subtle grid, and geometric circuit traces.</desc>
+<defs>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#1c2c34" stroke-width="1"/>
+  </pattern>
+  <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d1720"/>
+    <stop offset="1" stop-color="#10272b"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="300" fill="url(#backdrop)"/>
+<rect x="710" width="490" height="300" fill="url(#grid)"/>
+<path d="M0 0H1200" stroke="#8bf0ca" stroke-width="6"/>
+<path d="M45 62V42H65M45 238V258H65" fill="none" stroke="#8bf0ca" stroke-width="3"/>
+<text x="76" y="202" fill="#dff8ec" font-family="Arial,Helvetica,sans-serif" font-size="132" font-weight="700" letter-spacing="-6">Tymofii</text>
+<rect x="544" y="178" width="22" height="26" fill="#8bf0ca"/>
+<g fill="none" stroke-linecap="square" stroke-linejoin="miter">
+  <path d="M740 90H814L854 130H912M760 238H825L865 198H912M1055 150H1125L1170 105H1200" stroke="#355b5c" stroke-width="2"/>
+  <path d="M895 105L850 150L895 195M1035 105L1080 150L1035 195M991 87L939 213" stroke="#8bf0ca" stroke-width="8"/>
+  <path d="M788 50H1105V250H788" stroke="#355b5c" stroke-width="1"/>
+</g>
+<g fill="#8bf0ca">
+  <circle cx="740" cy="90" r="4"/>
+  <circle cx="760" cy="238" r="4"/>
+  <circle cx="1125" cy="150" r="4"/>
+</g>
 </svg>
