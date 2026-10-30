@@ -1,5 +1,5 @@
 <p align="left">
-<img src="assets/header.svg" width="100%" alt="Tymofii — cinematic midnight sky with subtle stars and a planetary horizon" />
+<img src="assets/header.svg" width="100%" alt="Cinematic midnight sky with subtle stars and a planetary horizon" />
 </p>
 
 # Tymofii
