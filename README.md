@@ -1,5 +1,5 @@
 <p align="left">
-<img src="assets/header.svg?v=2b36074a98e1" width="100%" alt="Cinematic midnight sky with subtle stars and a planetary horizon" />
+<img src="assets/header.png?v=b9d6eaec9dd5" width="100%" alt="Textured navy, orange and ivory space landscape with a distant explorer" />
 </p>
 
 # Tymofii
