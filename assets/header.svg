@@ -1,13 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
 <title id="title">Tymofii</title>
-<desc id="desc">Minimal cobalt-blue typography on a pale blue background with an asymmetric graphic composition.</desc>
-<rect width="1200" height="320" fill="#edf2ff"/>
-<path d="M0 0H19V320H0Z" fill="#2449eb"/>
-<path d="M924 0H1200V320H1084Z" fill="#dce5ff"/>
-<circle cx="1100" cy="57" r="110" fill="#c6d3ff"/>
-<path d="M967 207H1147V225H967Z" fill="#2449eb"/>
-<path d="M1048 126H1066V306H1048Z" fill="#2449eb"/>
-<text x="63" y="233" font-family="Arial,Helvetica,sans-serif" font-size="198" font-weight="700" letter-spacing="-12" fill="#2449eb">Tymofii</text>
-<path d="M74 273H837" stroke="#2449eb" stroke-width="2"/>
-<circle cx="837" cy="273" r="6" fill="#2449eb"/>
+<desc id="desc">Cinematic midnight sky with subtle stars, a glowing planetary horizon, and the name Tymofii.</desc>
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+  <stop stop-color="#030711"/><stop offset="0.55" stop-color="#071120"/><stop offset="1" stop-color="#101a2d"/>
+ </linearGradient>
+ <radialGradient id="atmosphere">
+  <stop stop-color="#558dba" stop-opacity="0.3"/><stop offset="0.5" stop-color="#2b496e" stop-opacity="0.15"/><stop offset="1" stop-color="#071120" stop-opacity="0"/>
+ </radialGradient>
+ <linearGradient id="planet" x1="0" y1="0" x2="0" y2="1">
+  <stop stop-color="#172c42"/><stop offset="0.28" stop-color="#0b1628"/><stop offset="1" stop-color="#030711"/>
+ </linearGradient>
+ <linearGradient id="rim" x1="0" y1="0" x2="1" y2="0">
+  <stop stop-color="#53779d" stop-opacity="0"/><stop offset="0.45" stop-color="#b0d1eb" stop-opacity="0.85"/><stop offset="0.8" stop-color="#5c84ae" stop-opacity="0.4"/><stop offset="1" stop-color="#53779d" stop-opacity="0"/>
+ </linearGradient>
+</defs>
+<rect width="1200" height="340" fill="url(#sky)"/>
+<ellipse cx="895" cy="275" rx="490" ry="290" fill="url(#atmosphere)"/>
+<g fill="#d6e3f4">
+ <circle cx="57" cy="73" r="1" opacity="0.45"/><circle cx="144" cy="34" r="0.8" opacity="0.65"/>
+ <circle cx="238" cy="96" r="0.7" opacity="0.4"/><circle cx="331" cy="43" r="1.1" opacity="0.65"/>
+ <circle cx="446" cy="76" r="0.6" opacity="0.5"/><circle cx="539" cy="28" r="0.8" opacity="0.4"/>
+ <circle cx="646" cy="91" r="1" opacity="0.6"/><circle cx="739" cy="53" r="0.7" opacity="0.45"/>
+ <circle cx="854" cy="89" r="1.1" opacity="0.7"/><circle cx="961" cy="32" r="0.7" opacity="0.55"/>
+ <circle cx="1084" cy="76" r="1" opacity="0.5"/><circle cx="1153" cy="38" r="0.8" opacity="0.65"/>
+ <circle cx="98" cy="203" r="0.7" opacity="0.45"/><circle cx="201" cy="287" r="0.8" opacity="0.3"/>
+ <circle cx="342" cy="257" r="0.7" opacity="0.5"/><circle cx="489" cy="291" r="1" opacity="0.35"/>
+ <circle cx="712" cy="190" r="0.6" opacity="0.5"/><circle cx="812" cy="137" r="0.9" opacity="0.55"/>
+ <circle cx="926" cy="168" r="0.7" opacity="0.5"/><circle cx="1117" cy="145" r="0.9" opacity="0.6"/>
+</g>
+<path d="M585 340Q870 102 1240 274L1240 340Z" fill="url(#planet)"/>
+<path d="M585 340Q870 102 1240 274" fill="none" stroke="url(#rim)" stroke-width="2"/>
+<text x="83" y="213" font-family="Arial,Helvetica,sans-serif" font-size="114" font-weight="500" letter-spacing="5" fill="#edf3fa">Tymofii</text>
 </svg>
